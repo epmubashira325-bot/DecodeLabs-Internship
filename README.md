@@ -1,3 +1,84 @@
+#Project 1
+
+# LLM Text Generator using Ollama
+
+## Overview
+
+This project is a Streamlit-based application that interacts with a Large Language Model (LLM) using Ollama. Users can enter prompts and receive AI-generated responses.
+
+## Features
+
+* Interactive web interface
+* AI-powered text generation
+* Integration with Ollama
+* Supports local LLM models
+
+## Technologies Used
+
+* Python
+* Streamlit
+* Ollama
+
+## Project Structure
+
+llm-text-generator/
+│
+├── app.py
+├── README.md
+
+## Prerequisites
+
+Install Ollama:
+
+https://ollama.com
+
+Install dependencies:
+
+pip install streamlit ollama
+
+Pull the model:
+
+ollama pull llama3.2
+
+## How to Run
+
+Start Ollama:
+
+ollama serve
+
+Run Streamlit:
+
+streamlit run app.py
+
+Open the browser URL displayed in the terminal.
+
+## Usage
+
+1. Enter a prompt.
+2. Click Generate Response.
+3. View the AI-generated output.
+
+## Example Prompt
+
+Explain Machine Learning in simple terms.
+
+## Learning Outcomes
+
+* Working with Large Language Models
+* Streamlit application development
+* Prompt engineering basics
+* Ollama integration
+
+## Future Enhancements
+
+* Chat history support
+* Multiple model selection
+* File upload support
+* Conversation memory
+
+  
+#Project 2
+
 # Iris Flower Classification using Machine Learning
 
 ## Overview
@@ -52,8 +133,6 @@ Target Classes:
 ## Project Structure
 
 iris-classification/
-
-│
 
 ├── app.py
 
@@ -148,8 +227,69 @@ Performance Metrics:
 * Compare additional machine learning models
 * Use cross-validation for better evaluation
 
-## Author
+#Project 3
 
-Mubashira EP
+# AI Recommendation System
 
-B.Tech in Artificial Intelligence and Data Science
+## Overview
+
+This project is a simple recommendation system built using Python. It recommends movies based on user preferences by matching genres and calculating a similarity score.
+
+## Features
+
+* Takes user preferences as input
+* Matches user interests with movie genres
+* Calculates match scores
+* Displays recommended movies in descending order of relevance
+
+## Technologies Used
+
+* Python
+* Lists
+* Dictionaries
+* Loops
+* Conditional Statements
+
+## Project Structure
+
+recommendation-system/
+│
+├── app.py
+├── README.md
+
+## How to Run
+
+1. Install Python.
+2. Open terminal in the project folder.
+3. Run:
+
+python app.py
+
+4. Enter genres when prompted.
+
+Example:
+
+Enter your favorite genres (comma separated): Action,Sci-Fi
+
+## Sample Output
+
+Recommended Movies:
+Avengers - Match Score: 2
+Avatar - Match Score: 2
+Interstellar - Match Score: 1
+John Wick - Match Score: 1
+
+## Learning Outcomes
+
+* Recommendation system basics
+* Pattern matching
+* User input handling
+* Similarity scoring logic
+
+## Future Enhancements
+
+* Add more movies
+* Use a database
+* Implement content-based filtering
+* Build a web interface using Streamlit
+
